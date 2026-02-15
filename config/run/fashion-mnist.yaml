@@ -1,0 +1,10 @@
+# @package _global_
+defaults:
+  - override /model: mnist
+
+dataset_name: fashion-mnist
+
+n_epochs: 100
+val_epoch_interval: 10
+viz_epoch_interval: 10
+save_epoch_interval: 10
